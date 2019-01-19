@@ -24,13 +24,17 @@
   <!-- vertag<:>end -->
   <ItemGroup>
     <Content Include="ACI\azuredeployaci.parameters.json" />
-    <Content Include="azuredeployacr.json" />
-    <Content Include="azuredeployacr.parameters.json" />
+    <Content Include="ACR\azuredeployacr.json" />
+    <Content Include="ACR\azuredeployacr.parameters.json" />
     <Content Include="ACI\azuredeployaci.json" />
+    <Content Include="AKS\azuredeployaks.json" />
+    <Content Include="AKS\azuredeployaks.parameters.json" />
+    <Content Include="WebApp\azuredeploywebapp.json" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
     <Content Include="Deploy-AzureResourceGroup.ps1" />
+    <Content Include="WebApp\azuredeploywebapp.parameters.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
