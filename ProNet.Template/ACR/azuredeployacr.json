@@ -45,10 +45,6 @@
       "type": "Microsoft.ContainerRegistry/registries",
       "apiVersion": "2017-10-01",
       "location": "[parameters('location')]",
-      "tags": {
-        "displayName": "Container Registry",
-        "container.registry": "[parameters('acrName')]"
-      },
       "sku": {
         "name": "[parameters('acrSku')]",
         "tier": "[parameters('acrSku')]"
