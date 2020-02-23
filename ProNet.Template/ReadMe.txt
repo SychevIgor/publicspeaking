@@ -1,1 +1,0 @@
-https://github.com/Azure/azure-quickstart-templates/tree/master/101-container-registry-geo-replication
